@@ -1,0 +1,54 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color:rgb(227, 227, 227);
+    }
+    
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-top: 3%;
+      background-color: rgb(199, 198, 198);
+    }
+    
+    th {
+      background-color: #343434;
+      text-align: left;
+      padding: 8px;
+      color : #ddd;
+    }
+    
+    td {
+      border-bottom: 1px solid #ddd;
+      padding: 8px;
+    }
+    
+    tr:hover {
+      background-color: rgb(55, 90, 60);
+      cursor: pointer; /* Change the cursor to indicate the row is clickable */
+    }
+    td:nth-child(2):before {
+      content: '';
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background-color: #8000ff;
+      border-radius: 50%;
+      margin-right: 8px;
+    }
+    
+    .event-name {
+      font-weight: bold;
+    }
+    
+    .event-time {
+      color: #666;
+    }
+    
+    .event-location {
+      color: #999;
+    }
